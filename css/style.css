@@ -18,3 +18,67 @@ li {
     list-style: none;
     display: inline;
 }
+
+li a {
+  background: black;
+  color: white;
+}
+
+li a:hover {
+  background: red;
+  color: white;
+}
+
+#navigasi {
+  background: black;
+  height: 50px;
+}
+
+#pageintro {
+  padding: 180px 0;
+  background-image: url(/background)
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#pageintro section {
+  display: block;
+  max-width: 60%;
+  margin-left:  50px;
+}
+
+#pageintro section h3{
+  text-transfrorm: upparcase;
+  font-size: 6cm;
+  color: rgb(0,2, 100);
+}
+
+#pageintro section p{
+  font-size: 25px;
+}
+
+#pageintro .heading {
+  font-size: 60px;
+}
+
+#pageintro footer {
+  margin-top: 50px;
+}
+
+#pageintro footer .btn_m{
+  background-color: blue;
+  border-radius: 10px;
+}
+
+#pageintro-footer .btn_m:hover{
+  background-color: green;
+  border-radius: 10px;
+}
+
+#pageintro footer .btn_i{
+  background-color: red;
+  boorder-radius: 10px;
+}
+#pageintro footer .btn_i{
+  background-color: yellow;
+}
